@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FWT_react_gallery/static/css/main.9b0468c4.css",
+    "main.js": "/FWT_react_gallery/static/js/main.3ff06bed.js",
+    "static/media/Frame 238.svg": "/FWT_react_gallery/static/media/Frame 238.01be28c3378a5789e8a2b01c39bdf376.svg",
+    "index.html": "/FWT_react_gallery/index.html",
+    "main.9b0468c4.css.map": "/FWT_react_gallery/static/css/main.9b0468c4.css.map",
+    "main.3ff06bed.js.map": "/FWT_react_gallery/static/js/main.3ff06bed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0468c4.css",
+    "static/js/main.3ff06bed.js"
+  ]
+}
