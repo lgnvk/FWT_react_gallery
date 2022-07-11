@@ -1,0 +1,29 @@
+html[data-theme="dark"] {
+  --background-color: black;
+  --theme-toggler-color: white;
+  --input-color: white;
+  --input-background: black;
+  --input-created-color: white;
+  --select-color: white;
+  --divider-color: white;
+  --pagination-color: white;
+  --pagination-border-color: white;
+  --pagination-color-active: black;
+  --pagination-color-active-background: white;
+  --pagination-disabled: rgba(255, 255, 255, 0.7);
+}
+
+html[data-theme="light"] {
+  --background-color: white;
+  --theme-toggler-color: black;
+  --input-color: rgba(0, 0, 0, 0.3);
+  --input-background: white;
+  --input-created-color: rgba(0, 0, 0, 0.6);
+  --select-color: rgba(0, 0, 0, 0.6);
+  --divider-color: black;
+  --pagination-color: black;
+  --pagination-border-color: black;
+  --pagination-color-active: white;
+  --pagination-color-active-background: black;
+  --pagination-disabled: rgba(0, 0, 0, 0.3);
+}

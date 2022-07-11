@@ -1,0 +1,86 @@
+@media (min-width:768px) {
+  .container {
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+  .menu {
+    margin-top: 35px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    &__inputs {
+      flex-direction: column;
+      height: 120px;
+      justify-content: space-evenly;
+      align-items:center;
+    }
+    &__divider {
+      width: 12px;
+      height: 1px;
+      background-color: var(--divider-color);
+      margin-top: 0px;
+    }
+    &__input {
+      width: 23%;
+      margin-bottom: 0px;
+      &-created {
+        margin-bottom: 0;
+      }
+    }
+    &__select {
+      width: 23%;
+    }
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+      width: 49%;
+      height: 250px;
+    }
+    &__info {
+      bottom: -86px;
+    }
+  }
+}
+
+@media (min-width:1024px) {
+  .container {
+    margin-left: 42px;
+    margin-right: 42px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+      width: 32%;
+      height: 230px;
+    }
+    &__info {
+      bottom: -78px;
+    }
+  }
+}
+
+@media (min-width:1366px) {
+  .container {
+    margin-left: 123px;
+    margin-right: 123px;
+  }
+  .menu {
+    &__inputs {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .gallery {
+    &__item {
+      height: 275px;
+    }
+    &__info {
+      bottom: -98px;
+    }
+  }
+}
